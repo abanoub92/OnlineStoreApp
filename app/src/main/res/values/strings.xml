@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">OnlineStoreApp</string>
+
+    <!-- menu -->
+    <string name="menu_all_title">All</string>
+    <string name="menu_cate_one_title">Cate One</string>
+    <string name="menu_cate_two_title">Cate Two</string>
+
+    <!-- default text -->
+    <string name="hello_blank_fragment">Hello All fragment</string>
+    <string name="hello_blank_fragment2">Hello Category one fragment</string>
+    <string name="hello_blank_fragment3">Hello Category two fragment</string>
+
+</resources>

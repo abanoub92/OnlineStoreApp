@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1061660859258",
+    "firebase_url": "https://onlinestoreapp-a44eb.firebaseio.com",
+    "project_id": "onlinestoreapp-a44eb",
+    "storage_bucket": "onlinestoreapp-a44eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061660859258:android:cab6f6c8142b8681b3d4c3",
+        "android_client_info": {
+          "package_name": "com.abanoub.onlinestoreapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061660859258-g33gp6uro6b1d16oro3im3s3rrcds23r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abanoub.onlinestoreapp",
+            "certificate_hash": "2b563d042160314ce18f6e4a4082a8116933be29"
+          }
+        },
+        {
+          "client_id": "1061660859258-7ev3r908labbdict2g3b31pur9vmlea5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADpFR1ItjHGFPn3RnZTDcgJsrZUD1A2QM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061660859258-7ev3r908labbdict2g3b31pur9vmlea5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

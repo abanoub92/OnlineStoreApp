@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/all_data"
+        android:title="@string/menu_all_title"
+        android:icon="@drawable/ic_all"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/cate_one"
+        android:title="@string/menu_cate_one_title"
+        android:icon="@drawable/ic_all"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/cate_two"
+        android:title="@string/menu_cate_two_title"
+        android:icon="@drawable/ic_all"
+        app:showAsAction="always"/>
+
+</menu>
