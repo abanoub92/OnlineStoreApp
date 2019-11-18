@@ -1,9 +1,11 @@
 package com.abanoub.onlinestoreapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -32,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mUnbinder = ButterKnife.bind(this);
+
+        changeBackground();
 
         //creating new instances of bottom navigation bar fragments
         mAllFragment = AllFragment.newInstance();
@@ -76,6 +80,17 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.fragments_root_view, fragment);
         transaction.commit();
+    }
+
+
+    private void changeBackground(){
+        GradientDrawable gradientDrawable = new GradientDrawable(
+                GradientDrawable.Orientation.TOP_BOTTOM,
+                new int[]{0xFF616261,0xFF131313}
+        );
+
+        gradientDrawable.setCornerRadius(0f);
+        bottomNavigationView.setBackground(gradientDrawable);
     }
 
 
